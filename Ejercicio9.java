@@ -10,7 +10,6 @@ import java.util.Scanner;
 
 public class Ejercicio9 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
         int numrand=0;
         int counter =1;
         while (numrand!=24){
@@ -21,6 +20,5 @@ public class Ejercicio9 {
             }
         }
         System.out.printf(" \n Se han ingresado %d números",counter);
-        sc.close();
     }
 }

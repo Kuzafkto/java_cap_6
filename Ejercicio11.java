@@ -11,7 +11,6 @@ import java.util.Scanner;
 
 public class Ejercicio11 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
         int suspcounter=0;
         int sufcounter =0;
         int biencounter = 0;
@@ -45,6 +44,5 @@ public class Ejercicio11 {
             System.out.println(grade);
         }
         System.out.printf("Hay %d suspensos, %d suficientes , %d bien, %d notables y %d sobresalientes", suspcounter, sufcounter,biencounter,notabcounter,sobrecounter);
-        sc.close();
     }
 }

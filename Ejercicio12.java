@@ -14,7 +14,7 @@ public class Ejercicio12 {
         System.out.print("");
         boolean infinite =true;
         while (infinite=true){
-            System.out.println
+            System.out.print((char)(((int)(Math.random()*126)+32)));
         }
         sc.close();
     }

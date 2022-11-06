@@ -9,9 +9,62 @@ import java.util.Scanner;
 
 public class Ejercicio7 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("");
+        for (int i=1; i<=14; i++){
+            System.out.printf("%-2s",i);
+            System.out.print(" | ");
+            switch ((int)(Math.random()*3)+1){
+                case 1:
+                    System.out.print("1");
+                    break;
+                case 2:
+                    System.out.print("x");
+                    break;
+                case 3:
+                    System.out.print("2");
+                    break;
+            }
+            System.out.print(" | ");
+            switch ((int)(Math.random()*3)+1){
+                case 1:
+                    System.out.print("1");
+                    break;
+                case 2:
+                    System.out.print("x");
+                    break;
+                case 3:
+                    System.out.print("2");
+                    break;
+            }
+            System.out.print(" | ");
+            switch ((int)(Math.random()*3)+1){
+                case 1:
+                    System.out.print("1");
+                    break;
+                case 2:
+                    System.out.print("x");
+                    break;
+                case 3:
+                    System.out.print("2");
+                    break;
+            }
+            System.out.print(" | ");
+            System.out.println("");
+        }
 
-        sc.close();
+        System.out.printf("%-2s",15);
+        System.out.print(" | ");
+
+        switch ((int)(Math.random()*3)+1){
+            case 1:
+                System.out.print("1");
+                break;
+            case 2:
+                System.out.print("x");
+                break;
+            case 3:
+                System.out.print("2");
+                break;
+        }
+        System.out.print(" | ");
     }
 }

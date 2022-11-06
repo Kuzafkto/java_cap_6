@@ -11,7 +11,6 @@ import java.util.Scanner;
 
 public class Ejercicio10 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
         char randchar='c';
 
         for (int i= 0 ; i<10; i ++){
@@ -41,6 +40,5 @@ public class Ejercicio10 {
             }
             System.out.println("");
         }
-        sc.close();
     }
 }
