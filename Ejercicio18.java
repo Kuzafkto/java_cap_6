@@ -9,12 +9,8 @@ naranja.
  *@author KuzaFkto
  */
 
-import java.util.Scanner;
-
 public class Ejercicio18 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("");
         int genColor=0;
         int color1=0;
         int color2=0;
@@ -52,6 +48,5 @@ public class Ejercicio18 {
                 }
             }
         }
-        sc.close();
     }
 }
