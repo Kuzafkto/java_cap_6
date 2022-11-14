@@ -9,12 +9,12 @@ de esos números.
 
 public class Ejercicio5 {
     public static void main(String[] args) {
-        int biggest=0;
-        int tiniest=300;
+        int biggest=100;
+        int tiniest=199;
         int num=0;
         float total=0;
         for (int i = 0; i<50; i++ ){
-            num=(int)((Math.random()*200)+100);
+            num=(int)((Math.random()*100)+100);
             System.out.print(num+" ");
             total+=num;
             if (num>biggest){
